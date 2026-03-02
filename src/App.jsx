@@ -579,7 +579,7 @@ function App() {
                 <div className="w-2 h-2 bg-accent rounded-full mt-2 flex-shrink-0"></div>
                 <div>
                   <p className="text-sm">
-                    Concentração na escola às <strong><span translate="no">07:00h</span></strong>. Retorno previsto às <strong><span translate="no">11:10h</span></strong>.
+                    Concentração na escola às <strong><span translate="no">13:00h</span></strong>. Retorno previsto às <strong><span translate="no">17:10h</span></strong>.
                   </p>
                 </div>
               </div>
@@ -1062,6 +1062,7 @@ function App() {
 }
 
 export default App;
+
 
 
 
