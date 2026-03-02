@@ -43,7 +43,7 @@ import jardimImage from './assets/happy3.png';
 function App() {
   // ⚙️ CONFIGURAÇÃO
   const SERIES_DISPONIVEIS = ['6º Ano', '7º Ano'];
-  const TURMAS_PERMITIDAS = ['A']; // Apenas turma A (matutino)
+  const TURMAS_PERMITIDAS = ['B']; // Apenas turma A (matutino)
 
   // ============================================
   // TAXAS DE ANTECIPAÇÃO
@@ -421,7 +421,7 @@ function App() {
             Museu de Minérios do IFRN
           </h1>
           <p className="text-xl md:text-2xl mb-8 opacity-90">
-            Passeio Pedagógico — 6º e 7º Anos
+            Passeio Pedagógico — 6º e 7º Anos Vespertino
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 
@@ -477,7 +477,7 @@ function App() {
                 </div>
                 <div className="flex items-start space-x-3">
                   <CheckCircle className="h-6 w-6 text-accent mt-1 flex-shrink-0" />
-                  <p>Destinado aos alunos do 6º e 7º anos (Turno Matutino)</p>
+                  <p>Destinado aos alunos do 6º e 7º anos (Turno Vespertino)</p>
                 </div>
               </div>
             </div>
@@ -509,10 +509,10 @@ function App() {
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-center" translate="no">
-                  Concentração na escola às 07:00h
+                  Concentração na escola às 13:00h
                 </p>
                 <p className="text-sm text-center" translate="no">
-                  Retorno previsto às 11:10h
+                  Retorno previsto às 17:10h
                 </p>
               </CardContent>
             </Card>
@@ -551,7 +551,7 @@ function App() {
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-center">
-                  6º e 7º Anos — Turno Matutino
+                  6º e 7º Anos — Turno Vespertino
                 </p>
               </CardContent>
             </Card>
@@ -571,7 +571,7 @@ function App() {
                 <div className="w-2 h-2 bg-accent rounded-full mt-2 flex-shrink-0"></div>
                 <div>
                   <p className="text-sm">
-                    O passeio é destinado aos alunos do <strong>6º e 7º anos (Turno Matutino)</strong>.
+                    O passeio é destinado aos alunos do <strong>6º e 7º anos (Turno Vespertino)</strong>.
                   </p>
                 </div>
               </div>
@@ -1062,6 +1062,7 @@ function App() {
 }
 
 export default App;
+
 
 
 
